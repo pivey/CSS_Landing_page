@@ -1,0 +1,70 @@
+
+/* @import url(desktop.css) (min-width:480px); */
+
+@import url("base.css");
+@import url("layout.css");
+@import url("module.css");
+@import url("state.css");
+@import url("theme.css");
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.panel-container {
+  padding:0px 0px 60px 0px;
+}
+
+.header-subtext {
+  width: 60vw;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: -15px;
+}
+
+@media (min-width: 480px) {
+
+  .card {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+  .panel-container {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    flex-wrap: wrap;
+    padding:0px 30px 0px 30px;
+  }
+
+  .main {
+    padding: 0px;
+    width: 33.333%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .main:nth-child(n+4) {
+    margin-bottom: 150px;
+  }
+
+  .header-subtext {
+    margin-top: -20px;
+    width: 25vw;
+    font-size: 1.2rem;
+  }
+
+  .banner {
+    margin-bottom: 20px;
+    height: 35vh;
+  }
+}

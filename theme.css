@@ -1,0 +1,31 @@
+
+/* ************************ Theme — These define things like a color scheme or typographic treatment across a site *************************/
+
+body {
+  background-color: lightgrey;
+  font-family: 'Dosis', sans-serif;
+}
+
+.banner {
+  background-color: #fff;
+}
+
+.flex-header {
+  color: black;
+}
+
+.flex-item {
+  color: black;
+}
+
+.card-content {
+    background: #fff;
+  }
+
+  .buttonHolder {
+    border: 1.5px solid #505A5B;
+  }
+  
+  .viewButton::after {
+    border: 1px solid #505A5B;
+  }
