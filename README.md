@@ -1,1 +1,1 @@
-A CSS landing page practice project with a focus on flexbox, BEM and SMACSS CSS philosophies to organize and compartmentalize design
+A CSS landing page practice project with the aim of reproducing a design from scratch. The focus of this project was on flexbox, BEM and SMACSS CSS philosophies to organize and compartmentalize design. 
